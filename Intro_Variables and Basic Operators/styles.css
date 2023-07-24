@@ -1,0 +1,10 @@
+body {
+    background: lightblue;
+}
+.title {
+    background-color: black;
+    color: white;
+    width: 20%;
+    /* height: 330px; */
+    align-items: center;
+}
