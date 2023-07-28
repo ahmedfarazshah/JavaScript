@@ -18,7 +18,6 @@ console.log(ahmedAge,steveAge,janeAge)
 // we are creating a function will tells us years untill retirement
 
 // functions can also call other functions and the parameter can be changed in the next function
-// this a function declaration or statement
 function yearUntillRetire(firstName , years){
     var age = calulateAge(years);
     var retirementAge = 55 - age;
