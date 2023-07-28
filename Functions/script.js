@@ -17,6 +17,8 @@ console.log(ahmedAge,steveAge,janeAge)
 
 // we are creating a function will tells us years untill retirement
 
+// functions can also call other functions and the parameter can be changed in the next function
+// this a function declaration or statement
 function yearUntillRetire(firstName , years){
     var age = calulateAge(years);
     var retirementAge = 55 - age;
@@ -26,8 +28,42 @@ function yearUntillRetire(firstName , years){
         console.log(firstName + ' is already retired')
     }
 }
-
 yearUntillRetire('Mike', 1990)
 yearUntillRetire('Steve', 1956)
 yearUntillRetire('Angela', 1999)
 yearUntillRetire('Jane', 2001)
+
+// Function declaration\Statement and Function Expression
+
+// Function Declaration
+
+// function name(parameter){}
+
+// A declaration is a type of function where the reasult is undefined (example; if else, while loops)
+
+// function Expression is a type of function where the reasult is defined and has a a outcome
+// example boolean, numbers and any string or defined in the console
+
+        //          FUNCTION EXPRESSION
+
+var profession = function(job, namePerson){
+    switch(job){
+        case 'teacher':
+            return namePerson + " is a teacher";
+        case 'soilder':
+            return namePerson + ' is a soilder';
+        case 'Developer':
+            return namePerson + ' is a Blockchain Developer'
+        default:
+            return 'does something else'; 
+    }
+}
+
+// it will save the output in the console
+
+console.log(profession('teacher', 'Steve'));
+console.log(profession('Developer', 'Faraz'));
+console.log(profession('soilder', 'Jane'));
+
+
+
