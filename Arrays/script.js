@@ -33,7 +33,7 @@ console.log(shaqs);
 
 shaqs.pop('');
 shaqs.shift();
-console.log(shaqs)
+console.log(shaqs);
 
 shaqs.unshift('Mr.');
 console.log(shaqs);
