@@ -1,7 +1,7 @@
-/*          Objects 
-                    it is similar to arrays but the elements are initialilzed in key=pair system where each element is defined by a name.
-                    In objects {} is used instead of []
-                    it can also store arrays in an object
+/*  Objects 
+        it is similar to arrays but the elements are initialilzed in key=pair system where each element is defined by a name.
+        In objects {} is used instead of []
+        it can also store arrays in an object
 */
 
 // two ways to initialize an object
