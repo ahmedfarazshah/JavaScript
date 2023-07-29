@@ -40,3 +40,5 @@ console.log(jane[y], jane[x]);
 smith.is_married = true;
 smith['job'] = 'miner';
 console.log(smith)
+
+// just a comment to check
