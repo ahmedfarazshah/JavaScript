@@ -20,7 +20,7 @@ person[person.length] = 'Stephen';
 // this adds a item in the array
 console.log(person);
 // to check the length
-console.log(years.length)
+console.log(years.length);
 
 // length tells us the number of elements in an array
 // the . in calling array in is called as method and is a fuction that will help you do any kind of stuff with the array
@@ -33,7 +33,7 @@ console.log(shaqs);
 
 shaqs.pop('');
 shaqs.shift();
-console.log(shaqs)
+console.log(shaqs);
 
 shaqs.unshift('Mr.');
 console.log(shaqs);
