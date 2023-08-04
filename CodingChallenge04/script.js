@@ -46,3 +46,4 @@ switch () {
         console.log('both have same BMI value')
         break;
 }*/
+// this is to check the staging
