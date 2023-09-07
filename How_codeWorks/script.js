@@ -89,15 +89,28 @@ var person = {
     gender: 'single',
     year_ofBirth: 2000,
     calculate : function(){
-        console.log(this)
+        console.log(this);
+        console.log(2016- this.year_ofBirth);
+            function inner(){
+                console.log(this);
+            }
+            // inner();
     }
-}
+};
 person.calculate();
 
+//
+//////////////////////// method borrowing
 
 
+var person2 = {
+    name: "Jane",
+    marital_status : ' single',
+    year_ofBirth : 1983,
+}
 
-
+person2.calculate= person.calculate;        // always write the first value that you are going to assign to the variable
+person2.calculate(); 
 
 
 
